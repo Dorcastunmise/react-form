@@ -11,8 +11,7 @@ body {
 }
 
 .form-container {
-  height: 80vh;
-  padding: 20px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,8 +25,10 @@ body {
 
 .form {
   background-color: rgb(22, 129, 93);
+  margin-top: 180px;
+  margin-bottom: 180px;
   color: whitesmoke;
-  padding: 30px 90px;
+  padding: 20px 90px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -47,20 +48,46 @@ body {
   padding: 5px;
   font-family: 'Inter', sans-serif;
 }
+.form--input:hover {
+  width: 300px;
+  margin-left: 250px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(57, 58, 57);
+  color: white;
+  border: 1px solid gray;
+  padding: 5px;
+  font-family: 'Inter', sans-serif;
+}
 
 .form--submit {
   width: 50%;
-  padding: 10px;
+  outline: none;
+  padding: 10px 5px;
+  font-size: 20px;
+  background-color: rgb(57, 94, 69);
   border-radius: 5px;
   color: white;
-  background-color: rgb(26, 82, 58);
+  border: none;   
+  cursor: pointer; 
+}
+.form--submit:hover {
+  width: 50%;
+  border-radius: 5px;
+  padding: 10px 5px;
+  border: none;
+  color: white;
+  background-color: rgb(28, 59, 46);
   border: none;   
   cursor: pointer; 
 }
 
 .form--marketing {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   align-items: center;
 }
 
